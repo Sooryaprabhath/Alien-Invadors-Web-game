@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alien Invaders</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Alien Invaders</h1>
+  <canvas id="gameCanvas"></canvas>
+  <p>
+    Use <span class="font-bold">left</span> and <span class="font-bold">right</span> arrow keys to move.
+    Press <span class="font-bold">space</span> to shoot.
+  </p>
+  <button id="restartButton" class="hidden">Restart Game</button>
+
+  <!-- Mobile Controls -->
+  <div id="mobileControls">
+    <button id="leftButton">Left</button>
+    <button id="rightButton">Right</button>
+    <button id="shootButton">Shoot</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
